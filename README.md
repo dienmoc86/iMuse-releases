@@ -1,6 +1,6 @@
 # iMuse AI
 
-Phần mềm làm **video và ảnh hàng loạt** bằng tài khoản Muse cho **Windows**. Miễn phí, làm cho người Việt.
+Phần mềm làm **video và ảnh hàng loạt** bằng tài khoản Muse cho **Windows** và **Mac** (chip Apple). Miễn phí, làm cho người Việt.
 
 Dán danh sách prompt, iMuse chia việc cho nhiều tài khoản chạy song song, tự tải video về máy, giữ nguyên mặt nhân vật qua mọi cảnh và
 ghép thành phim. Có thêm Workflow kéo thả, Clone video bằng link và Lồng tiếng lại.
@@ -12,18 +12,31 @@ ghép thành phim. Có thêm Workflow kéo thả, Clone video bằng link và L�
 | Máy của bạn | Tải bộ cài |
 |---|---|
 | 🪟 **Windows 10 / 11** (64-bit) | [**⬇️ Tải iMuse cho Windows**](https://github.com/dienmoc86/iMuse-releases/releases/latest/download/iMuse-Setup.exe) · iMuse-Setup.exe · khoảng 180 MB |
+| 🍎 **Mac chip Apple** (M1 trở lên, macOS 14 Sonoma trở lên) | [**⬇️ Tải iMuse cho Mac**](https://github.com/dienmoc86/iMuse-releases/releases/latest/download/iMuse-Mac.dmg) · iMuse-Mac.dmg · khoảng 225 MB |
 
 Mọi phiên bản và ghi chú thay đổi: mục [Releases](https://github.com/dienmoc86/iMuse-releases/releases).
 
-**Máy cần có:** Windows 10/11 64-bit, [Google Chrome](https://www.google.com/chrome/), RAM 8 GB trở lên (mỗi tài khoản chạy cùng lúc là
+**Máy cần có:** Windows 10/11 64-bit, hoặc Mac chip Apple (M1 trở lên) chạy macOS 14 Sonoma trở lên (Mac chip Intel chưa có bản);
+[Google Chrome](https://www.google.com/chrome/), RAM 8 GB trở lên (mỗi tài khoản chạy cùng lúc là
 một cửa sổ Chrome, tốn khoảng 0,5–1 GB RAM; máy 16 GB chạy thoải mái 4–6 tài khoản).
 
-### Cài đặt
+### Cài đặt trên Windows
 
 1. Chạy file `iMuse-Setup.exe` → **Tiếp theo** → **Cài đặt**. Cài cho riêng tài khoản Windows đang dùng, không cần quyền quản trị.
 2. Nếu Windows hiện bảng xanh *"Windows đã bảo vệ máy tính của bạn"*: bấm **Thông tin bổ sung** → **Vẫn chạy**.
 3. Mở **iMuse AI** ở màn hình nền hoặc menu Start. Cửa sổ iMuse mở toàn màn hình, vài giây là vào được.
 4. **Tắt hẳn:** menu Start → **Tắt iMuse**. Đóng cửa sổ thì iMuse vẫn chạy ngầm để làm nốt các video trong hàng đợi.
+
+### Cài đặt trên Mac
+
+1. Mở file `iMuse-Mac.dmg`, kéo biểu tượng **iMuse AI** thả vào thư mục **Applications** ngay bên cạnh, rồi đẩy ổ đĩa *iMuse AI* ra.
+2. Mở **iMuse AI** trong Launchpad (hoặc Finder → Applications).
+3. Lần đầu mở, macOS báo *"Apple không thể xác minh iMuse AI…"*: bấm **Xong** (đừng bấm *Chuyển vào Thùng rác*), mở
+   **Cài đặt hệ thống → Quyền riêng tư & Bảo mật**, kéo xuống dưới cùng, ở dòng *"iMuse AI đã bị chặn…"* bấm **Vẫn mở** → nhập mật
+   khẩu máy → **Mở**. Chỉ làm một lần, từ lần sau bấm đúp là mở.
+4. **Tắt hẳn:** bấm đúp **iMuse AI** lần nữa → chọn **Tắt iMuse**. Đóng cửa sổ thì iMuse vẫn chạy ngầm để làm nốt hàng đợi.
+
+Dữ liệu trên Mac (video, nhân vật, tài khoản, key) nằm ở `~/Library/Application Support/iMuse`.
 
 ### Kích hoạt (một lần cho mỗi máy — miễn phí)
 
@@ -39,7 +52,7 @@ Key dùng **365 ngày**, mỗi tài khoản Telegram được cấp key ngay cho
 cập nhật iMuse trên cùng máy **không cần** key mới. iMuse báo *"Key này dành cho máy khác"*: gửi cho bot mã máy đang hiện trên màn
 Kích hoạt của **chính máy này**.
 
-**Cập nhật:** tải bộ cài mới ở trên rồi cài đè lên bản cũ. Video, nhân vật, tài khoản và key kích hoạt được giữ nguyên.
+**Cập nhật:** tải bộ cài mới ở trên rồi cài đè lên bản cũ (Mac: kéo bản mới vào Applications → chọn **Thay thế**). Video, nhân vật, tài khoản và key kích hoạt được giữ nguyên.
 
 ## Bắt đầu trong 4 bước
 
