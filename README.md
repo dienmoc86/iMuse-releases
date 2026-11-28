@@ -17,12 +17,14 @@ ghép thành phim. Có thêm Workflow kéo thả, Clone video bằng link và L�
 Mọi phiên bản và ghi chú thay đổi: mục [Releases](https://github.com/dienmoc86/iMuse-releases/releases).
 
 **Máy cần có:** Windows 10/11 64-bit, hoặc Mac chip Apple (M1 trở lên) chạy macOS 14 Sonoma trở lên (Mac chip Intel chưa có bản);
-[Google Chrome](https://www.google.com/chrome/), RAM 8 GB trở lên (mỗi tài khoản chạy cùng lúc là
-một cửa sổ Chrome, tốn khoảng 0,5–1 GB RAM; máy 16 GB chạy thoải mái 4–6 tài khoản).
+một trình duyệt nhân Chromium (Windows: [Google Chrome](https://www.google.com/chrome/), Edge có sẵn trong Windows, Brave, Cốc Cốc…,
+hoặc tải Chromium riêng ngay trong iMuse; Mac: [Google Chrome](https://www.google.com/chrome/)), RAM 8 GB trở lên (mỗi tài khoản chạy
+cùng lúc là một cửa sổ trình duyệt, tốn khoảng 0,5–1 GB RAM; máy 16 GB chạy thoải mái 4–6 tài khoản).
 
 ### Cài đặt trên Windows
 
-1. Chạy file `iMuse-Setup.exe` → **Tiếp theo** → **Cài đặt**. Cài cho riêng tài khoản Windows đang dùng, không cần quyền quản trị.
+1. Chạy file `iMuse-Setup.exe`, bấm **Tiếp tục** qua các trang rồi bấm **Cài đặt**. Bộ cài ghi sẵn máy cần có gì, cách kích hoạt và
+   dữ liệu lưu ở đâu. Cài cho riêng tài khoản Windows đang dùng, không cần quyền quản trị.
 2. Nếu Windows hiện bảng xanh *"Windows đã bảo vệ máy tính của bạn"*: bấm **Thông tin bổ sung** → **Vẫn chạy**.
 3. Mở **iMuse AI** ở màn hình nền hoặc menu Start. Cửa sổ iMuse mở toàn màn hình, vài giây là vào được.
 4. **Tắt hẳn:** menu Start → **Tắt iMuse**. Đóng cửa sổ thì iMuse vẫn chạy ngầm để làm nốt các video trong hàng đợi.
@@ -57,7 +59,7 @@ Kích hoạt của **chính máy này**.
 ## Bắt đầu trong 4 bước
 
 1. **Thêm tài khoản Muse** — trang *Tài khoản Muse* → *Thêm tài khoản*: dán cookie nhiều tài khoản một lần, hoặc *Đăng nhập tay* trong
-   cửa sổ Chrome riêng. Mỗi tài khoản dùng được mạng máy / VPN hoặc một proxy riêng; bấm *Kiểm tra IP* để xem tài khoản đang ra mạng
+   cửa sổ trình duyệt riêng. Mỗi tài khoản dùng được mạng máy / VPN hoặc một proxy riêng; bấm *Kiểm tra IP* để xem tài khoản đang ra mạng
    bằng IP nước nào. Đặt số tài khoản chạy cùng lúc ở ô *Chạy song song* (tối đa 12).
 2. **Thêm khoá Gemini (miễn phí)** — *Cài đặt* → *AI viết kịch bản*, lấy khoá ở [aistudio.google.com](https://aistudio.google.com/apikey).
    Khoá dùng cho Trợ lý kịch bản, Shopee AFF, Clone Video, Lồng tiếng lại và AI nhìn ảnh nhân vật. Muse không cần khoá này để làm video.
@@ -66,7 +68,8 @@ Kích hoạt của **chính máy này**.
 4. **Tạo video** — trang *Tạo video*: chọn phong cách, khung hình, mỗi dòng prompt một video → **Tạo & chạy**. Bấm một dòng trong hàng
    đợi để xem, tải xuống, tạo lại hoặc chỉnh sửa.
 
-Trong app có trang **Hướng dẫn** đầy đủ từng mục.
+Hướng dẫn đầy đủ từng mục: trang **Hướng dẫn** trong app; trên Windows còn có menu Start → **Hướng dẫn sử dụng iMuse** (mở bằng
+trình duyệt, đọc được cả khi không có mạng).
 
 ## iMuse làm được gì
 
@@ -74,6 +77,9 @@ Trong app có trang **Hướng dẫn** đầy đủ từng mục.
 
 - Mỗi dòng prompt một video hoặc một ảnh; hàng đợi chạy nền, tự tải kết quả về máy; lọc, tìm, tạo lại mục lỗi, tải cả lô thành `.zip`.
 - Tới **12 tài khoản làm cùng lúc**. Tài khoản hết lượt, bị đăng xuất, quá giờ hay Muse trục trặc là tự chuyển sang tài khoản khác.
+- **Chọn trình duyệt chạy Muse** (bản Windows): Chrome, Edge, Brave, Cốc Cốc, Opera, Vivaldi… iMuse tự dò; thêm bản portable theo đường
+  dẫn, hoặc tải **Chromium riêng** một lần bấm. Mỗi tài khoản một trình duyệt riêng, đổi không phải đăng nhập lại. Cửa sổ khi chạy:
+  hiện, thu nhỏ hoặc **ẩn hẳn** (không chiếm thanh tác vụ).
 - **Giữ nguyên nhân vật** bằng ảnh mẫu, **20 phong cách** (điện ảnh, hoạt hình 3D, cổ trang, thú cưng…), 12 kiểu chuyển động máy quay,
   ảnh tham chiếu `@image1`, `@image2`.
 - **Duyệt ảnh trước**: vẽ ảnh xem trước (lượt ảnh rẻ), ưng ảnh nào mới làm video từ ảnh đó. Video hỏng không tính lượt và tự làm lại.
